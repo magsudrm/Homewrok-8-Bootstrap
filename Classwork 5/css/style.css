@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header_main{
+    width: 98%;
+    align-items: center;
+}
+.header_img img{
+    width: 100%;
+}
+.header_img {
+    width: 10%;
+}
+.header_right{
+    width: 60%;
+}
+header a{
+    color: white;
+    margin-left: 20px;
+}
+header i{
+    color: white;
+    margin-left: 20px;
+}
+.main{
+    background-image: url("https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-bacground-img-2.jpg");
+    padding: 24rem 0;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: -1;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ h2{
+    color: #262626;
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+ h6{
+    font-size: 18px;
+    line-height: 1.55em;
+    font-style: normal;
+    font-weight: 300;
+}
+#section1{
+    padding: 8rem 0;
+}
+#section1 span{
+    font-weight: bold;
+    transition: 0.3s;
+}
+#section1 p{
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 300;
+    color: #656565;
+}
+.box img:hover{
+    cursor: pointer;
+}
+.box span:hover{
+    cursor: pointer;
+    color: #be9c79;
+}
+.text{
+    margin-bottom: 3rem;
+}
+.box2 img{
+    width: 100%;
+}
+.box2 img:hover{
+    cursor: pointer;
+}
+.box2_text a{
+    transition: 0.3s;
+}
+.box2_text a:hover{
+    color: #be9c79;
+}
+.box2_text span:hover{
+    cursor: pointer;
+    color: #be9c79;
+    margin-left: 5px;
+}
+.box2_text span{
+    transition: 0.3s;
+}
+#section2{
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/new-new-h1-bacground-img-3.jpg);
+    padding: 11rem 0;
+}
+.box2_text{
+    text-align: left;
+}
+#section3{
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-bacground-img-2.jpg);
+    height: 500px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+.section3_img img{
+    width: 100%;
+}
+.section3_img{
+    width: 15%;
+    top: 13%;
+    left: 36%;
+    transform: translate(50%,50% );
+}
+#section4{
+    padding: 6rem;
+}
+#section4 span{
+    font-size: 55px;
+    letter-spacing: .05em;
+    line-height: .9em;
+    color: #be9c79;
+}
+#section4 h5{
+    color: #262626;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 1rem 0;
+}
+#section4 p{
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 300;
+    color: #656565;
+}
+#section5{
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-bacground-img-1.jpg);
+    padding: 11rem 0;
+}
+.box5_text a{
+    transition: 0.3s;
+}
+.box5_text a:hover{
+    color: #be9c79;
+}
+.addtocard{
+    top: 38%;
+    left: 29%;
+    display: none;
+}
+.box5:hover .addtocard{
+   display: block;
+   background-color: #be9c79;
+   color: white;
+   padding: 10px 20px;
+}
+.box5 img{
+    width: 100%;
+    transition: 0.3s;
+}
+.box5_img:hover img{
+    cursor: pointer;
+    filter: opacity(0.4);
+}
+.box6 img{
+    width: 100%;
+}
+#section6{
+    padding: 5rem 0;
+}
+.box6_text{
+    position: absolute ;
+    top: 41%;
+    left: 28%;
+    display: none;
+}
+.cupofcoffee:hover .box6_text{
+    display: block;
+}
+.box6_text h4{
+    color: white;
+}
+.box6_text span{
+    color: white;
+}
+.cupofcoffee{
+    position: relative;
+}
+#section6 img{
+    transition: 0.3s;
+}
+#section6 img:hover{
+    filter: brightness(0.3);
+    cursor: pointer;
+}
+#section7 img{
+    width: 100%;
+    padding: 1rem 0 5rem 0;
+}
+#section7 img:hover{
+    cursor: pointer;
+}
+#section8{
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/p2-background-img-1.jpg);
+    padding: 4rem 0;
+}
+.section8_h5{
+    width: 60%;
+    margin-top: 20px;
+}
+.section8_a{
+    text-align: center;
+    width: 12%;
+    padding: 15px 0;
+    background-color: #be9c79;
+    transition: 0.3s;
+}
+.section8_a:hover{
+    background-color: black;
+}
+.section8_a a{
+    color: white;
+    font-size: 12px;
+    line-height: 1.15em;
+    letter-spacing: .15em;
+    font-weight: 600;
+}
